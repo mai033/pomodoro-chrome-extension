@@ -1,0 +1,11 @@
+{
+    "name": "Pomodoro Clock",
+    "version": "1.0.0",
+    "description": "Pomodoro Clock to stay productive",
+    "manifest_version": 3,
+    "author": "Mai and Prashay",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Pomodoro Clock"
+    }
+}

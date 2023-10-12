@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+          <div class="clock-title" id="anchor">
+          </div>
+  <!-- timer section -->
+          <div class="main-time-container">
+            <div class="t-container">
+              <div class="t-label" id="timer-label">Session</div>
+              <div class="t-left" id="time-left">25:00</div>
+              </div>
+          </div>
+          
+  <!-- play-pause section -->
+          <div class="time-ctrl-container">
+            <div class="time-ctrl">
+              <button class="play-pause" id="start_stop">
+                <i class="fa fa-play fa-1x"></i>
+                <i class="fa fa-pause fa-1x"></i>
+              </button>
+              <button class="restart" id="reset">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </button>
+            </div>
+          </div>
+
+  <!-- break section -->
+          <div class="main-length-container">
+            <div class="length-container">
+              <div class="break" id="break-label">Break Length</div>
+              <div class="break-row">
+                <button class="break-inc" id="break-increment">
+                  <i class="fa-solid fa-arrow-up"></i>
+                </button>
+                <div class="brk-length" id="break-length">5</div>
+                <button class="break-dec" id="break-decrement">
+                  <i class="fa-solid fa-arrow-down"></i>
+                </button>
+              </div>
+            </div>
+  <!-- session section -->
+            <div class="length-container">
+              <div class="session" id="session-label">Session Length</div>
+              <div class="sesh-row">
+                <button class="sesh-inc" id="session-increment">
+                  <i class="fa-solid fa-arrow-up"></i>
+                </button>
+                <div class="sesh-length" id="session-length">25</div>
+                <button class="sesh-dec" id="session-decrement">
+                  <i class="fa-solid fa-arrow-down"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <audio id="beep" preload="auto" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+      <script src="script.js"></script>
+</body>
+</html>

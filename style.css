@@ -1,0 +1,97 @@
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background: linear-gradient(45deg, #f75f54,#d52121 );
+    justify-content: center;
+    align-items:  center;
+    border-radius: 50px;
+    box-shadow: #d52121;
+}
+
+.main-time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.t-left {
+    /* margin-left: 13px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-label {
+    font-size: 20px;
+    /* margin-left: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-ctrl-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-ctrl {
+    display: flex;
+    gap: 25px;
+    padding: 10px
+}
+
+.main-length-container {
+    /* background: red; */
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: space-around;
+    gap: 30px
+    /* font-size: 20px */
+}
+
+.length-container {
+    font-size: 18px;
+}
+
+.break-row {
+    display: flex;
+}
+.sesh-row {
+    display: flex;
+}
+
+.break, .session {
+    margin-bottom: 10px;
+}
+
+.break-inc, .sesh-inc {
+    
+}
+
+.brk-length, .sesh-length {
+    padding: 10px 10px 0 10px
+    /* display: flex; */
+
+}
+
+button {
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0px 0px 3px 0px;
+    cursor: pointer;
+    background: #d52121;
+    box-shadow: 0 2px 0 #800;
+    color: white
+  }
